@@ -7,6 +7,7 @@ import java.util.Vector;
 public class MainOther {
     public static void main(String[] args) {
         ArrayList miniarr = new ArrayList();
+        //arrayga malumot qoshish
         miniarr.add("men");
         miniarr.add("sen");
         miniarr.add("ular");
