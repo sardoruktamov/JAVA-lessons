@@ -28,6 +28,7 @@ public class YouCollection {
 //        TreeSet treeSet = new TreeSet(list1);
 //        System.out.println("TreeSet: " + treeSet);
         //----------------------------
+        /*
         //addAll(), retainALL(), removeALL() larni korish
         ArrayList list3 = new ArrayList();
         list3.addAll(Arrays.asList(new Integer[]{0,1,2,3}));
@@ -48,6 +49,30 @@ public class YouCollection {
         HashSet hashSet2 = new HashSet(list3);
         hashSet2.retainAll(list4);
         System.out.println("retainAll(): "+hashSet2);
+        */
+
+        ArrayList royxat = new ArrayList(Arrays.asList(new Integer[]{1,2,3,2,1,5,4,0,1}));
+        System.out.println("default holati "+royxat);
+        Collections.shuffle(royxat);// har safar random xolatida o`zgartiriladi
+        System.out.println("shuffel holati "+royxat);
+
+
+        System.out.println("max number "+Collections.max(royxat));
+        System.out.println("min number "+Collections.min(royxat));
+
+        Collections.sort(royxat);// sartirovka qilish
+        System.out.println("sort holati "+royxat);
+
+        Collections.reverse(royxat);// teskari qilish
+        System.out.println("reverse holati "+royxat);
+
+        System.out.println("royxat orasidaqi qiymat soni "+Collections.frequency(royxat, 1));
+
+        Collections.swap(royxat,0,1);// 0 indexdagi qiymatni 1 indexsdagi qiymatga almashtiriladi
+        System.out.println("reverse holati "+royxat);
+
+
+
 
 
     }
