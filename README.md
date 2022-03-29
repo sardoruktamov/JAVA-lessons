@@ -6,4 +6,4 @@ Java Core darslaridan mashqlar
 
 Java OOP
 
-Java Collections
+Java Collections (List, Set, Map)
