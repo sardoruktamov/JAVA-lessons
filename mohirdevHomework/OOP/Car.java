@@ -11,7 +11,7 @@ public class Car {
     @Override
     public String toString() {
         return String.format(
-                "Mashina rangi: %s modeli: %d narxi: %f avtomatmi?: %s  mexanikmi?: %s",
+                "Mashina rangi: %s modeli: %s narxi: %d avtomatmi?: %s  mexanikmi?: %s",
                 color, model, price, automatic, mexanic
                 );
     }

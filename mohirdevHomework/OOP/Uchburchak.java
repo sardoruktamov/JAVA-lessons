@@ -9,7 +9,7 @@ public class Uchburchak {
     @Override
     public String toString() {
         return String.format(
-                "a_tomon: %s b_tomon: %s c_tomon: %s ",
+                "a_tomon: %d b_tomon: %d c_tomon: %d ",
                 a_tomon, b_tomon, c_tomon
         );
     }

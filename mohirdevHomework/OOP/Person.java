@@ -1,13 +1,14 @@
 package mohirdevHomework.OOP;
 
 import java.text.DateFormat;
+import java.util.Date;
 
 public class Person {
 
     private String firstname;
     private String lastname;
     private Integer age;
-    private DateFormat birthday;
+    private Date birthday;
     private String email;
 
     @Override
